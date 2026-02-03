@@ -9,5 +9,8 @@ func Faktorial(n int) int {
 
 		return n * Faktorial(n-1)
 	}
+}
 
+func SayHello() string {
+	return "Hello, World!"
 }
