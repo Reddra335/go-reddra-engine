@@ -10,6 +10,6 @@ package faktorial
 // 		return n * Faktorial(n-1)
 // 	}
 // }
-func SayHello() string {
-	return "Hello, World!"
+func SayHello(name string) string {
+	return "Hello " + name
 }
